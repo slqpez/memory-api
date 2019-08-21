@@ -1,7 +1,7 @@
 Respuestas
 1.Como se puede apreciar en la imagen adjunta a este punto, genera un error de segmento debido a que no está direccionado a nada el apuntador.
 
-2.Muestra una señal de SIGSEGVa.
+2.El debbuger muestra iguamente un error en segmentación.
 
 3.Como muestra la imagen, muestra un error de mapeo en esa dirección.
 
