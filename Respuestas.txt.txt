@@ -1,0 +1,16 @@
+Respuestas
+1.Como se puede apreciar en la imagen adjunta a este punto, genera un error de segmento debido a que no está direccionado a nada el apuntador.
+
+2.Muestra una señal de SIGSEGVa.
+
+3.Como muestra la imagen, muestra un error de mapeo en esa dirección.
+
+4.Se muestra que no se pudo dar el espacio de la memoria que proporcionaba el malloc en ambos casos.
+
+5.Convalgrind, se tuvieron 2 errores 
+Uno de escritura ya que no estaba en el rango
+Y otro por acceder a la misma posición
+
+6.Se detecta un error porque se accede a un elemento del arreglo que ya estaba liberado.
+
+7.Se dan errores porque el apuntador es inválido
